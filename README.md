@@ -1,8 +1,7 @@
-# 🤔💯 Quizzical
+# 🤔💯 QuizWhizz
 
-A quiz web application that uses the Open Trivia Database API to access trivia questions and grades players according to their responses. The player can alter the game's complexity and category among other things.
-
-I created this entirely from scratch as my final solo project for Bob Ziroll's React Course on Scrimba.
+Enjoy the perfect blend of education and fun with QuizWhiz, the ultimate quiz app for curious minds.
+It is a web application that uses the Open Trivia Database API to access trivia questions and grades players according to their responses. The player can alter the game's complexity and category among other things.
 
 ## 🏗️Built using:
 
@@ -13,10 +12,8 @@ I created this entirely from scratch as my final solo project for Bob Ziroll's R
 
 ### 📷Screenshots:
 
-![image](https://github.com/Mirthhh08/quizzical/assets/92306499/cb495d9f-8fe3-4b02-a087-71104f7815e3)
+![image](https://github.com/Mirthhh08/QuizWhizz/assets/92306499/6436d505-a9aa-4091-bb06-6620d2a10a6b)
 
-![image](https://github.com/Mirthhh08/quizzical/assets/92306499/1fac9315-659e-47ad-a1f8-cabee9a5ddd5)
+![image](https://github.com/Mirthhh08/QuizWhizz/assets/92306499/b2e779e8-dfbb-4208-a4c9-1b0cc39732f0)
 
-![image](https://github.com/Mirthhh08/quizzical/assets/92306499/adc08859-cfba-46c2-8dfa-ab9b4e79056e)
-
-![image](https://github.com/Mirthhh08/quizzical/assets/92306499/bc25f2c0-be6e-48bc-94f6-4f633bfb4b18)
+![image](https://github.com/Mirthhh08/QuizWhizz/assets/92306499/5a671740-f2bf-42a5-a6a7-77a7a7262c43)
