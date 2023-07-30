@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 93vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.game--title {
+    color: #293264;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: .5em 0;
+}
+
+.game-options {
+    margin-bottom: .5em;
+
+}
+
+.select-container {
+    margin-bottom: .5em;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: .3em 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-label {
+    font-family: 'Karla', sans-serif;
+    margin: .2em;
+}
+
+.custom-select {
+    border: 0;
+    width: 100%;
+    height: 3em;
+    padding: 0 1em 0 1em;
+    color: #293264;
+    border-radius: 0.25em;
+    box-shadow: 0 0 0.6em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.yellow {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.blue {
+    position: absolute;
+    bottom: 0;
+}
+
+.start--button {
+
+    border: none;
+    border-radius: 15px;
+    background: #4D5B9E;
+    color: #F5F7FB;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.4em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: .3em 2em;
+    margin: 1em;
+}
+
+
+.start--button:focus {
+    outline: none;
+}
+
+.start--button:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+    background-color: #4d5b9ed8;
+}
+
+
+/* styling ---> main */
+.section{
+    width: 100%;
+}
+.container {
+    width: 80%;
+    margin:  0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question--container {
+    width: 90%;
+    margin: 3em auto;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.question--title {
+    color: #293264;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.options {
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.answer {
+    color: #293264;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 1em;
+    padding: .5em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 7.942px;
+    border: 0.794px solid #4D5B9E;
+    background-color: white;
+}
+
+.selected {
+    background-color: #D6DBF5;
+    border: none;
+}
+
+#correct.answer {
+    background-color: #94D7A2;
+    border: 1px solid #94D7A2;
+}
+
+#incorrect.answer.selected {
+    background-color: #F8BCBC;
+    border: 1px solid #F8BCBC;
+}
+
+#not-selected.answer {
+    color: rgba(41, 50, 100, .4);
+    border: 1px solid rgba(41, 50, 100, .4);
+}
+
+.question hr {
+    margin: 1em 0;
+}
+
+
+.check--answer {
+
+    background-color: #4D5B9E;
+    border: none;
+    padding: .5em 1.5em;
+    color: #F5F7FB;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: center;
+    border-radius: 15px;
+    margin: 1em;
+}
+
+.check--answer:focus {
+    outline: none;
+}
+
+.check--answer:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+    background-color: #4d5b9ed8;
+}
+
+.container .score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+}
+
+.score .correct-ans {
+    color: #293264a2;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+footer{
+    
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+
+footer .footer{
+    color: rgb(52, 55, 53);
+}
