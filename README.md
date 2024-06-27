@@ -1,6 +1,6 @@
-# 🤔💯 QuizWhizz
+# 🤔💯 Quizzical
 
-Enjoy the perfect blend of education and fun with QuizWhiz, the ultimate quiz app for curious minds.
+Enjoy the perfect blend of education and fun with Quizcal, the ultimate quiz app for curious minds.
 It is a web application that uses the Open Trivia Database API to access trivia questions and grades players according to their responses. The player can alter the game's complexity and category among other things.
 
 ## 🏗️Built using:
